@@ -1,3 +1,32 @@
-<p>
-  header works!
-</p>
+<mat-toolbar color="primary" class="custom-nav-css">
+  <ul class="">
+    <li>
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        <span>
+          <mat-icon>home</mat-icon>&nbsp;Home
+        </span>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/projects" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        <span>
+          <mat-icon>stars</mat-icon>&nbsp;Projects
+        </span>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/travel" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        <span>
+          <mat-icon>flight</mat-icon>&nbsp;Travel
+        </span>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/about" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        <span>
+          <mat-icon>people</mat-icon>&nbsp;About
+        </span>
+      </a>
+    </li>
+  </ul>
+</mat-toolbar>

@@ -1,0 +1,37 @@
+.custom-nav-css {
+    /* background-color: rgba(255, 239, 250, 0.20); */
+    /* background-color: rgb(255, 230, 230);  */
+    color: black;
+    text-align: center;
+}
+
+.custom-nav-css ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.custom-nav-css li {
+    float: left;
+    text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.custom-nav-css li a {
+    display: block;
+    color: black;
+    text-align: center; 
+    text-decoration: none;   
+}
+
+.custom-nav-css li a.active {
+    color: white;
+}
+
+.active {
+    // background-color: rgb(128, 0, 0);
+    color:white;
+}
