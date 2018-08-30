@@ -1,0 +1,23 @@
+.min-height-100vh {
+    min-height: 100vh;
+}
+
+.max-height-5vh {
+    max-height: 5vh;
+}
+
+.min-height-90vh {
+    min-height: 90vh;
+}
+
+.height-80px {
+    height: 80px;
+}
+
+.height-64px {
+    height: 64px;
+}
+
+.content {
+    min-height: calc(100vh - 144px);
+}

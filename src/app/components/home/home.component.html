@@ -1,0 +1,11 @@
+<div class="padding-10px">
+  <div *ngFor="let post of posts" class="post-container">
+    <h1 class="primary">{{post.title}}</h1>
+      <div [innerHTML]="post.content"></div>
+      <mat-chip-list>
+        <mat-chip *ngFor="let tag of post.tags">
+          <span>{{tag}}</span>
+        </mat-chip>
+      </mat-chip-list>
+  </div>
+</div>
